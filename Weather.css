@@ -16,7 +16,6 @@ body {
     overflow: hidden;
 }
 
-/* Animated background stars */
 .stars {
     position: absolute;
     width: 100%;
@@ -38,7 +37,6 @@ body {
     50% { opacity: 1; }
 }
 
-/* Gradient orbs */
 .orb {
     position: absolute;
     border-radius: 50%;
@@ -79,7 +77,6 @@ body {
     66% { transform: translate(-50px,50px) scale(0.9); }
 }
 
-/* Main Card Container */
 .container {
     width: 90%;
     max-width: 900px;
@@ -102,7 +99,6 @@ body {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* Search Section */
 .search-section {
     display: flex;
     gap: 15px;
@@ -165,7 +161,6 @@ body {
     box-shadow: 0 15px 40px rgba(102,126,234,0.6);
 }
 
-/* Main Weather Display */
 .weather-main {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -219,7 +214,6 @@ body {
     50% { transform: translateY(-20px); }
 }
 
-/* Weather Details Grid */
 .weather-details {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
@@ -266,7 +260,6 @@ body {
     font-weight: 300;
 }
 
-/* Responsive */
 @media (max-width:768px){
     .weather-main { grid-template-columns: 1fr; text-align:center; }
     .weather-left { text-align:center; }
